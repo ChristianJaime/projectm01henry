@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web</title>
+    <link rel="shortcut icon" href="./assets/img/avatar32.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>Mi pagina Web</h1>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul>
+                <li><a class="header-a" href="#about">Sobre mi</a></li>
+                <li><a class="header-a" href="#technologies">Mis Tecnologías Favoritas</a></li>
+                <li><a class="header-a" href="#activities">Mis Actividades Favoritas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Sobre mi</h2>
+            <div class="about-content">
+                <p>Soy una apasionada del desarrollo web y me encanta descubrir nuevas tecnologías para construir
+                    experiencias digitales creativas y funcionales. Estoy en constante aprendizaje, y cada proyecto me
+                    desafía a mejorar y explorar nuevas formas de resolver problemas. Más allá del código, disfruto
+                    colaborar con otros, compartir ideas y aportar mi perspectiva para crear soluciones que realmente
+                    marquen la diferencia.</p>
+                <img src="./assets/img/about.jpg" alt="programador">
+            </div>
+        </section>
+        <section id="technologies">
+            <h2>Mis Tecnologías Favoritas</h2>
+            <div class="tech-cards">
+                <div class="tech-card">
+                    <img src="./assets/img/html.png" alt="Icono de HTML">
+                    <h3>HTML</h3>
+                </div>
+                <div class="tech-card">
+                    <img src="./assets/img/css.png" alt="Icono de CSS">
+                    <h3>CSS</h3>
+                </div>
+                <div class="tech-card">
+                    <img src="./assets/img/javascript.jpg" alt="Icono de JavaScript">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+        </section>        
+        <section id="activities">
+            <h2>Mis Actividades Favoritas</h2>
+            <form id="activity-form">
+                <label for="title">Título:</label>
+                <input type="text" id="title" name="title" placeholder="Ingresa el título de la actividad" required>
+        
+                <label for="description">Descripción:</label>
+                <textarea id="description" name="description" placeholder="Describe la actividad" required></textarea>
+        
+                <label for="imageUrl">URL de Imagen:</label>
+                <input type="url" id="imageUrl" name="imageUrl" placeholder="Ingresa la URL de la imagen" required>
+        
+                <button type="submit" id="add-activity">Agregar Actividad</button>
+            </form>
+            <div id="activities-container">
+                <!-- Las tarjetas de actividades generadas se mostrarán aquí -->
+            </div>
+        </section>        
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <p>&copy; 2024 Mi pagina Web. Todos los derechos reservados.</p>
+                <p>Diseñado por Christian Siles</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre mi</a></li>
+                    <li><a href="#technologies">Mis Tecnologías Favoritas</a></li>
+                    <li><a href="#activities">Mis Actividades Favoritas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="./scripts/index.js"></script>    
+</body>
+
+</html>

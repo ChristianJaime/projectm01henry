@@ -1,0 +1,17 @@
+{
+  "name": "modulo01-henry-fullstack",
+  "version": "1.0.0",
+  "description": "Version personal del modulo 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "live-server"
+  },
+  "author": "Christian Siles",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "jasmine": "^5.4.0",
+    "live-server": "^1.2.2"
+  }
+}

@@ -1,0 +1,69 @@
+/* Reset general */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Configuración de tipografía */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Reset de estilo de bloque */
+body {
+  margin: 0;
+}
+
+/* Elimina decoraciones y colores de enlaces */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Estilo básico de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Eliminación de bordes en tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Ajustes básicos para imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+/* Ajustes para inputs y botones */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* Quita el borde de los botones */
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Configura un fondo claro para la base */
+body {
+  background-color: #f7f7f7;
+  color: #333;
+}
